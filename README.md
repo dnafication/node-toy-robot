@@ -1,4 +1,4 @@
-# node-toy-robot
+# node-toy-robot 🤖 
 
 This is my solution to a coding exercise and it contains my interpretation of the problem. The exercise details can be found [here.](./node-toy-robot.md)
 
