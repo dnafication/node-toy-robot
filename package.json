@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "a nodejs console app to simulate a toy robot moving on a square table top",
   "main": "index.js",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/dnafication/node-toy-robot.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +24,8 @@
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-import": "^2.19.1"
+  },
+  "dependencies": {
+    "commander": "^4.0.1"
   }
 }
