@@ -37,8 +37,8 @@ if (program.file) {
   fs.stat(program.file, (err, stats) => {
     if (err) return console.error('Error while checking the file', err);
     if (stats.isFile()) {
-      fs.readFile(program.file, 'utf8', (err, data) => {
-        if (err) return console.error('Error while opening the file', err);
+      fs.readFile(program.file, 'utf8', (err1, data) => {
+        if (err1) return console.error('Error while opening the file', err1);
         const commands = data.split('\n');
         commands.forEach(cmd => {
           parseAndAct(cmd, table, robot);
@@ -81,6 +81,3 @@ if (program.file) {
     process.exit(0);
   });
 }
-
-// default params for place
-// debugger;
